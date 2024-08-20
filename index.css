@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    width: 50%;
+    margin: auto;
+}
+.button{
+    border: 2px solid black;
+    width: 70%;
+    height: 150px;
+    margin: auto;
+
+}
+#grey{
+    background-color: grey;
+}
+#white{
+    background-color: white;
+}
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
